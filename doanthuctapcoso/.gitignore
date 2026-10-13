@@ -1,0 +1,8 @@
+# Loại bỏ thư mục thư viện và môi trường ảo
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Loại bỏ thông tin cấu hình bảo mật cá nhân
+.env
