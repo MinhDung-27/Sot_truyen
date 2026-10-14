@@ -26,6 +26,16 @@ export function createLayoutViews(context) {
               <span class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" aria-label="Tìm truyện" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="searchSuggestions" aria-expanded="false" placeholder="Tìm truyện, tác giả..." value="${escapeHtml(state.query)}"></span>
               <span id="searchSuggestions" class="search-suggestions" role="listbox" hidden></span>
             </div>
+            <button
+              class="button button-secondary theme-toggle"
+              type="button"
+              data-action="toggle-theme"
+              aria-label="${state.darkMode ? 'Chuyển sang chế độ sáng' : 'Chuyển sang chế độ đêm'}"
+              aria-pressed="${state.darkMode}"
+              title="${state.darkMode ? 'Chuyển sang chế độ sáng' : 'Chuyển sang chế độ đêm'}"
+            >
+              ${state.darkMode ? '☀️' : '🌙'}
+            </button>
             ${authorButton}${accountButton}
           </div>
         </div>

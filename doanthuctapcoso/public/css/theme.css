@@ -1,0 +1,183 @@
+:root[data-theme="dark"] body {
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .topbar {
+    background: rgba(29, 35, 31, 0.96);
+}
+
+:root[data-theme="dark"] .search-box,
+:root[data-theme="dark"] .button-secondary,
+:root[data-theme="dark"] .button-account,
+:root[data-theme="dark"] .user-button.active {
+    background: #2a332e;
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .genre-section,
+:root[data-theme="dark"] .home-page .genre-section {
+    border-color: var(--line);
+    background:
+        radial-gradient(ellipse at 100% 0%, rgba(193, 179, 135, 0.08), transparent 38%),
+        linear-gradient(125deg, #202722 0%, #252b26 100%);
+}
+
+:root[data-theme="dark"] .story-section,
+:root[data-theme="dark"] .ranking-column,
+:root[data-theme="dark"] .profile-card,
+:root[data-theme="dark"] .chapter-list,
+:root[data-theme="dark"] .reader-panel,
+:root[data-theme="dark"] .admin-panel,
+:root[data-theme="dark"] .story-reviews,
+:root[data-theme="dark"] .story-reviews-loading,
+:root[data-theme="dark"] .payment-card,
+:root[data-theme="dark"] .review-modal,
+:root[data-theme="dark"] .account-panel {
+    border-color: var(--line);
+    background: var(--panel);
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .account-panel {
+    background: linear-gradient(135deg, #282b27 0%, #222925 100%);
+}
+
+:root[data-theme="dark"] .ranking-intro,
+:root[data-theme="dark"] .admin-panel#ranking {
+    border-color: var(--line);
+    background: linear-gradient(120deg, #222d28 0%, #282c26 100%);
+}
+
+:root[data-theme="dark"] .ranking-intro h1,
+:root[data-theme="dark"] .admin-panel#ranking h3 {
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .genre-section .eyebrow,
+:root[data-theme="dark"] .story-section .eyebrow,
+:root[data-theme="dark"] .home-page .filter-row,
+:root[data-theme="dark"] .home-page .section-actions,
+:root[data-theme="dark"] .filter-row,
+:root[data-theme="dark"] .section-actions,
+:root[data-theme="dark"] .meta-chip,
+:root[data-theme="dark"] .story-edit-form {
+    border-color: var(--line);
+    background: #303a33;
+    color: #c4d2c8;
+}
+
+:root[data-theme="dark"] .home-page .filter-pill {
+    color: #c4d2c8;
+}
+
+:root[data-theme="dark"] .home-page .filter-pill:hover {
+    color: #f1f4ef;
+}
+
+:root[data-theme="dark"] .home-page .filter-pill.active,
+:root[data-theme="dark"] .filter-pill.active {
+    border-color: #5d7968;
+    background: #476151;
+    color: #fff;
+}
+
+:root[data-theme="dark"] .story-card,
+:root[data-theme="dark"] .account-row,
+:root[data-theme="dark"] .account-history-table,
+:root[data-theme="dark"] .account-history-table thead th,
+:root[data-theme="dark"] .admin-panel#ranking .stat-box,
+:root[data-theme="dark"] .chapter-item,
+:root[data-theme="dark"] .chapter-form input,
+:root[data-theme="dark"] .chapter-form textarea,
+:root[data-theme="dark"] .form-group input,
+:root[data-theme="dark"] .form-group select,
+:root[data-theme="dark"] .form-group textarea,
+:root[data-theme="dark"] .account-edit-form input,
+:root[data-theme="dark"] .review-comment-label textarea {
+    border-color: var(--line);
+    background: #252d28;
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .home-page .story-card {
+    border-color: #39443d;
+    background: #222925;
+}
+
+:root[data-theme="dark"] .home-page .story-body h3,
+:root[data-theme="dark"] .admin-panel#ranking .stat-box strong {
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .admin-panel#ranking .stat-box span {
+    color: var(--muted);
+}
+
+:root[data-theme="dark"] .story-cover,
+:root[data-theme="dark"] .ranking-cover {
+    color: #f1f4ef;
+}
+
+:root[data-theme="dark"] .favorite-button {
+    border-color: rgba(31, 38, 34, 0.9);
+    background: rgba(34, 41, 37, 0.94);
+    color: #ffad98;
+}
+
+:root[data-theme="dark"] .reader-body {
+    color: #e3e9e4;
+}
+
+:root[data-theme="dark"] .chapter-item:hover,
+:root[data-theme="dark"] .search-suggestion:hover,
+:root[data-theme="dark"] .search-suggestion:focus-visible {
+    background: #303a33;
+}
+
+:root[data-theme="dark"] .payment-success,
+:root[data-theme="dark"] .review-thanks-icon {
+    background: #293d31;
+    color: #8fe0b5;
+}
+
+:root[data-theme="dark"] .payment-demo-placeholder {
+    background: #252d28;
+}
+
+:root[data-theme="dark"] .opening-screen {
+    background:
+        radial-gradient(ellipse at 50% 45%, rgba(116, 148, 127, 0.16), transparent 43%),
+        radial-gradient(ellipse at 12% 86%, rgba(255, 160, 113, 0.1), transparent 34%),
+        linear-gradient(135deg, #202b25 0%, #1b2420 48%, #302820 100%);
+    color: #e8eee8;
+}
+
+:root[data-theme="dark"] .opening-title {
+    color: #d9e8dc;
+    text-shadow: 0 4px 0 rgba(20, 27, 23, 0.76), 0 14px 34px rgba(0, 0, 0, 0.3);
+}
+
+:root[data-theme="dark"] .opening-tagline {
+    background-image: linear-gradient(100deg, #a9cbb5 20%, #ff9b83 42%, #d9e8dc 55%, #a9cbb5 78%);
+}
+
+:root[data-theme="dark"] .opening-enter {
+    border-color: rgba(211, 230, 216, 0.26);
+    background: rgba(34, 43, 37, 0.7);
+    color: #e8eee8;
+}
+
+:root[data-theme="dark"] .opening-enter:hover,
+:root[data-theme="dark"] .opening-enter:focus-visible {
+    background: rgba(45, 57, 48, 0.95);
+}
+
+:root[data-theme="dark"] .story-status {
+    color: #75d6a2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root[data-theme] body {
+        transition: background-color 180ms ease, color 180ms ease;
+    }
+}

@@ -12,6 +12,20 @@
     --tag-bg: #fff0d5;
 }
 
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #171b19;
+    --panel: #222925;
+    --panel-soft: #2c352f;
+    --primary-dark: #ff9b83;
+    --text: #edf1ec;
+    --muted: #aebbb2;
+    --line: #3b4840;
+    --shadow: 0 12px 30px rgba(0, 0, 0, 0.24);
+    --success: #75d6a2;
+    --tag-bg: #4a4030;
+}
+
 * {
     box-sizing: border-box;
 }

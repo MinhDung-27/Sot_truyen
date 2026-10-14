@@ -53,7 +53,10 @@ import { normalizeText } from './js/utils.js';
             rankings: null,
             rankingsLoading: false,
             showOpening: true,
+            darkMode: localStorage.getItem('theme') === 'dark',
         };
+
+        document.documentElement.dataset.theme = state.darkMode ? 'dark' : 'light';
 
         function escapeHtml(value) {
             return String(value == null ? '' : value).replace(/[&<>"']/g, (character) => ({
@@ -696,6 +699,12 @@ import { normalizeText } from './js/utils.js';
     if (element.matches('a')) event.preventDefault();
 
     switch (action) {
+      case 'toggle-theme':
+        state.darkMode = !state.darkMode;
+        localStorage.setItem('theme', state.darkMode ? 'dark' : 'light');
+        document.documentElement.dataset.theme = state.darkMode ? 'dark' : 'light';
+        render();
+        break;
       case 'home':
         authModeSwitchToken += 1;
         state.screen = 'home'; state.authMode = null; render(); break;
