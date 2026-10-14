@@ -53,6 +53,24 @@
     color: var(--text);
 }
 
+:root[data-theme="dark"] .hero-card:first-child {
+    border-color: #344b3f;
+    background: #293c31;
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .hero-card:first-child .eyebrow,
+:root[data-theme="dark"] .stat-box {
+    border-color: var(--line);
+    background: #303a33;
+    color: var(--text);
+}
+
+:root[data-theme="dark"] .hero-card:first-child p,
+:root[data-theme="dark"] .hero-card:first-child .hero-addon {
+    color: #c4d2c8;
+}
+
 :root[data-theme="dark"] .genre-section .eyebrow,
 :root[data-theme="dark"] .story-section .eyebrow,
 :root[data-theme="dark"] .home-page .filter-row,
@@ -142,6 +160,12 @@
 
 :root[data-theme="dark"] .payment-demo-placeholder {
     background: #252d28;
+}
+
+:root[data-theme="dark"] .button-danger {
+    border-color: #70423d;
+    background: #402b29;
+    color: #ffb2a4;
 }
 
 :root[data-theme="dark"] .opening-screen {
